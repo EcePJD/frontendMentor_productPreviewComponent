@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+  <main>
+    <div class="container" id="product-img-container">
+      <img id="product-img" src="" alt="product-image">
+    </div>
+
+    <div class="container" id="product-details-container">
+      <h2 id="product-type">PERFUME</h2>
+
+      <h1 id="product-name">Gabrielle Essence Eau De Parfum</h1>
+
+      <p id="product-description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+
+      <div class="container" id="product-price-container">
+        <span id="price-discounted">$149.99</span>
+
+        <span id="price-original">$169.99</span>
+      </div>
+
+      <button id="btn-add-to-cart">
+        <img src="./images/icon-cart.svg" alt="add-to-cart-icon">
+
+        <span>Add to Cart</span>
+      </button>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    <span>Challenge by <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Frontend Mentor</a>.</span>
+    
+    <div class="separator"></div>
+    
+    <a href="./design/desktop-design.jpg" target="_blank">Design Guide - Desktop</a>
+    
+    <div class="separator"></div>
+
+    <a href="./design/mobile-design.jpg" target="_blank">Design Guide - Mobile</a>
+    
+    <div class="separator"></div>
+    
+    <div class="rating">
+      <span>Difficulty: Newbie</span>
+      <br class="text-cutter">
+      <span>[</span>
+      <div class="rate rate-lit" id="rate-newbie"></div>
+      <div class="rate" id="rate-junior"></div>
+      <div class="rate" id="rate-intermediate"></div>
+      <div class="rate" id="rate-advanced"></div>
+      <div class="rate" id="rate-guro"></div>
+      <span>]</span>
+    </div>
+    
+    <div class="separator"></div>
+    
+    <span>Coded by <a href="https://github.com/EcePJD">Patrick James O. De Leon</a>.</span>
+  </footer>
+</body>
+</html>
